@@ -1,0 +1,75 @@
+body, body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #5F5752;
+}
+#skaiBody {
+    width: 20rem;
+    height: 35rem;
+    margin-top: 3rem;
+    background-color: #313441;
+    color: #DFDEF9;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+#skaiEkranas {
+    height: 8rem;
+    background-color: #FBFBFB;
+    color: #000;
+    border-radius: 5px 5px 0px 0px;
+    text-align: end;
+}
+.veiksmai {
+    padding: 10px;
+    font-size: 20px;
+    color: grey;
+}
+.rez {
+    padding: 10px;
+    font-size: 50px;
+}
+#knopkiuPanel {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30rem;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+.knopkes {
+    width: 4.5rem;
+    height: 4.5rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2rem;
+    place-items: center;
+    
+}
+.knopkes:hover {
+    color: #5A536D;
+}
+.virsutiniai {
+    margin-top: 30px;
+}
+button {
+    width: 20rem;
+    height: 3rem;
+    background-color: #FE5532;
+    font-size: 2rem;
+    float: inline-end;
+    color: #FBFBFB;
+    border-radius: 0px 0px 5px 5px;
+}
+button:hover {
+    color: #9E3F26;
+}

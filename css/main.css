@@ -53,15 +53,21 @@ body {
     vertical-align: middle;
     font-size: 2rem;
     place-items: center;
+    background-color: #313441;
+    border: none;
+    color: antiquewhite;
     
 }
 .knopkes:hover {
     color: #5A536D;
+    background-color: #7b7787;
+    border-radius: 30px;
 }
 .virsutiniai {
     margin-top: 30px;
 }
-button {
+
+#lygu {
     width: 20rem;
     height: 3rem;
     background-color: #FE5532;
@@ -70,6 +76,6 @@ button {
     color: #FBFBFB;
     border-radius: 0px 0px 5px 5px;
 }
-button:hover {
+#lygu:hover {
     color: #9E3F26;
 }

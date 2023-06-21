@@ -56,6 +56,8 @@ body {
     background-color: #313441;
     border: none;
     color: antiquewhite;
+    user-select: none;
+    cursor: pointer;
     
 }
 .knopkes:hover {

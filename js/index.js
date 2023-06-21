@@ -1,5 +1,36 @@
 console.clear();
 
+const calcDOM = document.querySelector('.calc');
+calcDOM.innerHTML = `
+        <div id="skaiEkranas">
+            <div class="veiksmai"></div>
+            <div class="rez"></div>
+        </div>
+        <div id="knopkiuPanel">
+            <button class="knopkes virsutiniai">C</button>
+            <button class="knopkes virsutiniai">+/-</button>
+            <button class="knopkes virsutiniai">%</button>
+            <button class="knopkes virsutiniai"><=</button>
+            <button class="knopkes">7</button>
+            <button class="knopkes">8</button>
+            <button class="knopkes">9</button>
+            <button class="knopkes">/</button>
+            <button class="knopkes">4</button>
+            <button class="knopkes">5</button>
+            <button class="knopkes">6</button>
+            <button class="knopkes">*</button>
+            <button class="knopkes">1</button>
+            <button class="knopkes">2</button>
+            <button class="knopkes">3</button>
+            <button class="knopkes">-</button>
+            <button class="knopkes">0</button>
+            <button class="knopkes">00</button>
+            <button class="knopkes">.</button>
+            <button class="knopkes">+</button>
+            <button id="lygu" class="knopkes">=</button>
+        </div>
+`;
+
 const veiksmaiDOM = document.querySelector('.veiksmai');
 const knopkesDOM = document.querySelectorAll('.knopkes');
 
